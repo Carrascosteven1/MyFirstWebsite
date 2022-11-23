@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 .link
 {
 color:rgb(21, 37, 141); 
@@ -5,6 +9,9 @@ color:rgb(21, 37, 141);
 }
 
 .spacing {
+  display: flex;
+  justify-content:center;
+  align-items: center;
   background-color:aqua;
   padding: 20px ;
   border: 12px solid rgb(166, 0, 255);
@@ -15,7 +22,6 @@ color:rgb(21, 37, 141);
 }
 
 button {
-  display: grid;
   background-color:rgb(0, 0, 0);
   color:white;
   padding: 5px ;
