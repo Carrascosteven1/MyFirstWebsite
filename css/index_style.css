@@ -1,32 +1,93 @@
 html {
-  background-color: black;
-}
-
-.link
-{
-color:rgb(21, 37, 141); 
-
-}
-
-.spacing {
+  background-image: url("/images/meep1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-size: contain;
+  background-size: inline;
+  background-size: auto;
+ }
+ 
+ .link
+ {
+ color:rgb(21, 37, 141); 
+ }
+ 
+ h1 {
+  font-family: 'Kanit', sans-serif;
+  color: White;
+ }
+ .spacing {
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   background-color:rgb(0, 0, 0);
+   padding: 20px ;
+   border: 12px solid #4e6096;
+   margin-bottom: 50px;
+   height: auto;
+   width: auto;
+ }
+ 
+ .btn_positions {
   display: flex;
-  justify-content:center;
-  align-items: center;
-  background-color:aqua;
-  padding: 20px ;
-  border: 12px solid rgb(166, 0, 255);
-  margin: 10px;
-  margin-bottom: 50px;
-  height: auto;
-  width: auto;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-button {
-  background-color:rgb(0, 0, 0);
-  color:white;
-  padding: 5px ;
-  border: 5px solid rgb(166, 0, 255);
-  margin: 20px;
-  height: auto;
-  width: auto;
+.mybuttons {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Kanit', sans-serif;
+	font-size:19px;
+	padding:12px 37px;
+  margin:10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+}
+
+ .mybuttons:hover {
+background:linear-gradient(to bottom, #467e9e, 5%, #7892c2 100%);
+background-color:#467e9e;
+ }
+
+ .mybuttons:active {
+  position: relative;
+  top: 1px;
+ }
+
+ .dont_clickbtn {
+  box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:1px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+
+}
+
+.dont_clickposition {
+  display:flex;
+  justify-content: flex-end;
+
+.dont_clickbtn:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.dont_clickbtn:active {
+	position:relative;
+	top:1px;
 }
