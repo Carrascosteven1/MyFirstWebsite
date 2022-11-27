@@ -1,5 +1,20 @@
 html {
-  background-image: url("/images/meep3.png");
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
+}
+h1 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Kanit', sans-serif; 
+  text-transform: uppercase;
+  animation: color-change .75s infinite;
+
+}
+
+@keyframes color-change {
+  0%{color:red}
+  50% { color: blue; }
+  100% { color: red; }
 }
